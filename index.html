@@ -1,7 +1,69 @@
 <!doctype html>
 <html lang="gl">
 <head>
+<style>
+body {
+  background: #f3f7f8;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+}
 
+#content {
+  max-width: 1100px;
+  margin: 0 auto;
+  background: white;
+  box-shadow: 0 8px 30px rgba(0,0,0,0.08);
+}
+
+.hero {
+  background: linear-gradient(135deg, #0f4c5c, #1b998b);
+  color: white;
+  padding: 45px 35px;
+  border-radius: 0 0 24px 24px;
+  margin-bottom: 30px;
+}
+
+.hero h1 {
+  font-size: 2.4rem;
+  margin: 0 0 10px 0;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  margin: 0;
+  opacity: 0.95;
+}
+
+.exe-text {
+  font-size: 1.05rem;
+  line-height: 1.7;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 14px;
+  margin: 25px 0;
+}
+
+.cards div {
+  background: #eef7f6;
+  border-left: 5px solid #1b998b;
+  padding: 16px;
+  border-radius: 12px;
+  font-weight: 600;
+}
+
+iframe {
+  border-radius: 18px;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.15);
+  margin: 20px 0;
+}
+
+a {
+  color: #0f4c5c;
+  font-weight: 600;
+}
+</style>
 <div class="hero">
   <h1>Boiro, unha vila orientada ao mar</h1>
   <p>Mapa interactivo sobre toponimia, paisaxe, patrimonio e memoria mariñeira</p>
