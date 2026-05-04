@@ -335,6 +335,23 @@ iframe {
   height: 21px;
   margin-right: 8px;
 }
+    .galeria-castro {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 12px;
+  margin-top: 15px;
+}
+
+.galeria-castro img {
+  width: 100%;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+  transition: transform 0.2s ease;
+}
+
+.galeria-castro img:hover {
+  transform: scale(1.03);
+}
   </style>
 </head>
 
@@ -517,7 +534,7 @@ iframe {
   </p>
 
   <p>
-    <a href="#" target="_blank" rel="noopener">Acceder ao itinerario da saída do Paseo de Jane</a>
+    <a href="https://umap.openstreetmap.fr/gl/map/boiro-unha-vila-orientada-cara-ao-mar_1401091" target="_blank" rel="noopener">Acceder ao itinerario da saída do Paseo de Jane</a>
   </p>
 
 </div>
@@ -541,6 +558,13 @@ iframe {
   <p>
     Deste xeito, a visita permitiu integrar coñecementos sobre patrimonio, toponimia, tradición oral, arquitectura, actividades económicas e relación co medio, funcionando como síntese final do proxecto.
   </p>
+
+  <div class="galeria-castro">
+  <img src="iconos/neixon1.jpg" alt="Castro de Neixón">
+  <img src="iconos/neixon2.jpg" alt="Castro de Neixón">
+  <img src="iconos/neixon3.jpg" alt="Castro de Neixón">
+</div>
+  <p><strong>Saída ao castro de Neixón:</strong></p>
 
 </div>
 
