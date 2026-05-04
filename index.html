@@ -128,7 +128,7 @@
       margin: 28px 0;
     }
 
-    .cards div {
+   .cards a {
       background: #f6fbfb;
       border-left: 5px solid #1b998b;
       padding: 18px;
@@ -138,9 +138,11 @@
 
   transition: all 0.2s ease;
   cursor: default;
+     text-decoration: none;
+color: #1f2933;
 }
 
-.cards div:hover {
+.cards a:hover {
   transform: translateY(-3px);
   box-shadow: 0 6px 18px rgba(0,0,0,0.1);
 }
@@ -354,15 +356,14 @@ iframe {
 
                 <p>No mapa poderás descubrir:</p>
 
-                <div class="cards">
-                  <div>🌊 Toponimia litoral</div>
-                  <div>🏛️ Patrimonio histórico</div>
-                  <div>🎙️ Lendas e podcasts</div>
-                  <div>🏘️ Arquitectura mariñeira</div>
-                  <div>⛰️ Relevo e paisaxe</div>
-                </div>
-                <div class="section-block">
-
+               <div class="cards">
+  <a href="#toponimia">🌊 Toponimia litoral</a>
+  <a href="#patrimonio">🏛️ Patrimonio histórico</a>
+  <a href="#lendas">🎙️ Lendas e podcasts</a>
+  <a href="#arquitectura">🏘️ Arquitectura mariñeira</a>
+  <a href="#neixon">🏺 Castro de Neixón</a>
+</div>
+               <div class="section-block" id="toponimia">
   <h3>🌊 Toponimia litoral</h3>
 
   <p>
@@ -379,7 +380,8 @@ iframe {
 
 </div>
 
-<div class="section-block">
+<div class="section-block" id="lendas">
+
 
   <h3>🎙️ Lendas e podcasts</h3>
 
@@ -397,7 +399,7 @@ iframe {
 
 </div>
 
-<div class="section-block">
+<div class="section-block" id="patrimonio">
 
   <h3>🏛️ Patrimonio histórico</h3>
 
@@ -415,7 +417,7 @@ iframe {
 
 </div>
 
-<div class="section-block">
+<div class="section-block" id="arquitectura">
 
   <h3>🏘️ Arquitectura mariñeira e sostible</h3>
 
@@ -445,7 +447,7 @@ iframe {
 
 </div>
 
-<div class="section-block">
+<div class="section-block" id="neixon">
 
   <h3>🏺 Saída ao castro de Neixón</h3>
 
