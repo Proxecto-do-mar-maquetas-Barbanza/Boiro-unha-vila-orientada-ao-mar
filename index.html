@@ -296,15 +296,22 @@ iframe {
   margin-right: 8px;
   vertical-align: middle;
 }
-  .lenda-mapa {
-  margin: 12px 0 0 auto;
+  .lendas-mapa {
+  display: flex;
+  justify-content: flex-end;
+  gap: 12px;
+  margin-top: 12px;
+  flex-wrap: wrap;
+}
+
+.lenda-mapa {
   padding: 12px 15px;
-  max-width: 430px;
+  width: 260px;
   background: #ffffff;
   border: 1px solid #b6c5c7;
   border-radius: 8px;
   box-shadow: 0 3px 12px rgba(0,0,0,0.18);
-  font-size: 0.92rem;
+  font-size: 0.88rem;
 }
 
 .lenda-mapa h3 {
@@ -318,13 +325,13 @@ iframe {
 .lenda-mapa p {
   display: flex;
   align-items: center;
-  margin: 6px 0;
-  line-height: 1.25 !important;
+  margin: 5px 0;
+  line-height: 1.2 !important;
 }
 
 .lenda-mapa img {
-  width: 22px;
-  height: 22px;
+  width: 21px;
+  height: 21px;
   margin-right: 8px;
 }
   </style>
@@ -383,7 +390,8 @@ iframe {
                     loading="lazy"
                     src="https://umap.openstreetmap.fr/gl/map/boiro-unha-vila-orientada-cara-ao-mar_1396681?scaleControl=false&miniMap=false&scrollWheelZoom=false&zoomControl=true&editMode=disabled&moreControl=true&datalayersControl=true&onLoadPanel=caption&captionBar=false&captionMenus=true">
                   </iframe>
- <div class="lenda-mapa">
+ <div class="lendas-mapa">
+  <div class="lenda-mapa">
   <h3>Lenda do mapa</h3>
 
   <p><img src="iconos/lit.png"> Topónimos de paisaxe e formas de relevo litoral</p>
@@ -395,6 +403,16 @@ iframe {
   <p><img src="iconos/barrio.png"> Topónimos urbanos</p>
    <p><img src="iconos/actagr.png"> Agrarios</p>
 </div>
+<div class="lenda-mapa">
+    <h3>Outros elementos</h3>
+    <p><img src="iconos/lendas.png"> Lendas e podcasts</p>
+    <p><img src="iconos/patri.png"> Patrimonio histórico</p>
+    <p><img src="iconos/jane.png"> Paradas do Paseo de Jane</p>
+  </div>
+</div>
+                  
+
+                  
                   <p class="fullscreen-link">
                     <a href="https://umap.openstreetmap.fr/gl/map/boiro-unha-vila-orientada-cara-ao-mar_1396681" target="_blank" rel="noopener">
                       Abrir o mapa a pantalla completa
